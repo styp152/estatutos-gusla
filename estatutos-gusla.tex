@@ -1,0 +1,51 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+%\renewcommand \thesection {Titulo \@Alph\c@section}
+
+\title{Acta Constitutiva y Estatutos de la Asociaci\'on Civil Debian Venezuela}
+
+% Generar el PDF apropiado
+% latex estatutos-debian-ve.tex
+% dvips -t a4 -Ppdf estatutos-debian-ve.dvi
+% ps2pdf -DPDFSETTINGS=/printer estatutos-debian-ve.ps
+
+\begin{document}
+
+  \input{01-intro} 
+
+  \section{De la denominaci\'on, naturaleza, objeto, domicilio y duraci\'on.-}
+
+    \input{02-denominacion-naturaleza-objeto-domicilio-duracion}
+
+  \section{Objeto}
+  
+    \input{03-objeto} 
+
+  \section{Del patrimonio de la asociaci\'on civil}
+
+    \input{04-patrimonio-asociacion}
+
+  \section{De la Asamblea General}
+
+    \input{05-asamblea-general}
+
+  \section{De la Coordinaci\'on General}
+
+    \input{06-coordinacion-general}
+
+  \section{Disposiciones Finales}
+
+    \input{07-disposiciones-finales}
+
+  \section{Disposiciones Adicionales}
+
+    \input{08-disposiciones-adicionales}
+
+\end{document}
